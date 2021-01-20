@@ -64,5 +64,18 @@ void AABPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	// Later Change Mouse Right Button...
+	PlayerInputComponent->BindAxis(TEXT("UpDown"), this, &AABPawn::UpDown);
+	PlayerInputComponent->BindAxis(TEXT("LeftRight"), this, &AABPawn::LeftRight);
+
 }
 
+void AABPawn::UpDown(float NewAxisValue)
+{
+	AddMovementInput(GetActorForwardVector(), NewAxisValue);
+}
+
+void AABPawn::LeftRight(float NewAxisValue)
+{
+	AddMovementInput(GetActorRightVector(), NewAxisValue);
+}
