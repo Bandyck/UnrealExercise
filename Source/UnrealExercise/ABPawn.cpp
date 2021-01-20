@@ -31,16 +31,22 @@ AABPawn::AABPawn()
 	{
 		Mesh->SetSkeletalMesh(SK_PALADIN.Object);
 	}
+	/// Animation Bluerpint
+	Mesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+	static ConstructorHelpers::FClassFinder<UAnimInstance> PALADIN_ANIM(TEXT("/Game/Book/Animation/PaladinAnimBlueprint.PaladinAnimBlueprint_C"));
+	if (PALADIN_ANIM.Succeeded())
+		Mesh->SetAnimInstanceClass(PALADIN_ANIM.Class);
 }
 
 // Called when the game starts or when spawned
 void AABPawn::BeginPlay()
 {
 	Super::BeginPlay();
-	Mesh->SetAnimationMode(EAnimationMode::AnimationSingleNode);
-	UAnimationAsset* AnimAsset = LoadObject<UAnimationAsset>(nullptr, TEXT("/Game/Book/Animation/sword_and_shield_run.sword_and_shield_run"));
-	if (AnimAsset != nullptr)
-		Mesh->PlayAnimation(AnimAsset, true);
+	/// Animation C++
+	//Mesh->SetAnimationMode(EAnimationMode::AnimationSingleNode);
+	//UAnimationAsset* AnimAsset = LoadObject<UAnimationAsset>(nullptr, TEXT("/Game/Book/Animation/sword_and_shield_run.sword_and_shield_run"));
+	//if (AnimAsset != nullptr)
+	//	Mesh->PlayAnimation(AnimAsset, true);
 }
 
 // Called every frame
