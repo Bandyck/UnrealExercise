@@ -1,0 +1,3 @@
+C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\UnrealExercise.Build.cs
+C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise.Target.cs
+C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExerciseEditor.Target.cs

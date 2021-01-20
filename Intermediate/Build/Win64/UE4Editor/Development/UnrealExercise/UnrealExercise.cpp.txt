@@ -1,0 +1,2 @@
+C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Development\UnrealExercise\Definitions.UnrealExercise.h
+C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\UnrealExercise.h
