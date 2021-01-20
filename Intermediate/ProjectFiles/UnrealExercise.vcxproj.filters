@@ -42,4 +42,20 @@
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABGameMode.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABPawn.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABGameMode.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABPawn.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
