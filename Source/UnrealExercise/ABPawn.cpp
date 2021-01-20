@@ -26,7 +26,7 @@ AABPawn::AABPawn()
 	SpringArm->TargetArmLength = 400.0f;
 	SpringArm->SetRelativeRotation(FRotator(-15.0f, 0.0f, 0.0f));
 
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_PALADIN(TEXT("/Game/paladin_j_nordstrom.paladin_j_nordstrom"));
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_PALADIN(TEXT("/Game/Book/paladin_j_nordstrom.paladin_j_nordstrom"));
 	if (SK_PALADIN.Succeeded())
 	{
 		Mesh->SetSkeletalMesh(SK_PALADIN.Object);
@@ -37,7 +37,10 @@ AABPawn::AABPawn()
 void AABPawn::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	Mesh->SetAnimationMode(EAnimationMode::AnimationSingleNode);
+	UAnimationAsset* AnimAsset = LoadObject<UAnimationAsset>(nullptr, TEXT("/Game/Book/Animation/sword_and_shield_run.sword_and_shield_run"));
+	if (AnimAsset != nullptr)
+		Mesh->PlayAnimation(AnimAsset, true);
 }
 
 // Called every frame
