@@ -15,6 +15,7 @@ void AABPlayerController::PostInitializeComponents()
 //	Super::Possess(aPawn);
 //}
 
+// 4.22 Possess -> OnPossess
 void AABPlayerController::OnPossess(APawn* aPawn)
 {
 	ABLOG_S(Warning);
