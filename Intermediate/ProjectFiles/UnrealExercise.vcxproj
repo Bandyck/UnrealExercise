@@ -373,9 +373,11 @@
     <None Include="..\..\Source\UnrealExercise\UnrealExercise.Build.cs" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABGameMode.cpp" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABPawn.cpp" />
+    <ClCompile Include="..\..\Source\UnrealExercise\ABPlayerController.cpp" />
     <ClCompile Include="..\..\Source\UnrealExercise\UnrealExercise.cpp" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABGameMode.h" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABPawn.h" />
+    <ClInclude Include="..\..\Source\UnrealExercise\ABPlayerController.h" />
     <ClInclude Include="..\..\Source\UnrealExercise\UnrealExercise.h" />
     <ClCompile Include="..\..\Source\UnrealExercise\UnrealExerciseGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\UnrealExercise\UnrealExerciseGameModeBase.h" />

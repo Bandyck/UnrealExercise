@@ -14,4 +14,6 @@ class UNREALEXERCISE_API AABGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 		AABGameMode();
+public:
+	virtual void PostLogin(APlayerController* NewPlayer) override;
 };
