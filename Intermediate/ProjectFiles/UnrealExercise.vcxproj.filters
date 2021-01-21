@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealExercise.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{955E5D95-768B-4935-998B-092C4440FDEE}</UniqueIdentifier>
+      <UniqueIdentifier>{8DC4C57C-F795-474F-8158-7B86A5E9C7B6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealExercise.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{3BFCF41C-F433-44ED-AFF3-F6A45B0D3266}</UniqueIdentifier>
+      <UniqueIdentifier>{97D03BC9-992E-40D7-BC81-C3843648729E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,8 +29,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealExercise">
-      <UniqueIdentifier>{78CAD1D9-75F7-4337-A1BD-756FB562FA67}</UniqueIdentifier>
+      <UniqueIdentifier>{CFBFAEE5-673F-4BAC-90AA-9E2782EFD36A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABAnimInstance.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABAnimInstance.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\UnrealExercise\ABCharacter.cpp">
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
@@ -70,15 +76,5 @@
     <ClInclude Include="..\..\Source\UnrealExercise\UnrealExerciseGameModeBase.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABAnimInstance.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABAnimInstance.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
