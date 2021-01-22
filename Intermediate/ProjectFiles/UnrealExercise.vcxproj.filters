@@ -77,4 +77,14 @@
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABWeapon.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABWeapon.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
