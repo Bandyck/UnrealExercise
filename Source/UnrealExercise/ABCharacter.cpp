@@ -61,6 +61,7 @@ void AABCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 	ABAnim = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
+	ABCHECK(nullptr != ABAnim);
 	ABAnim->OnMontageEnded.AddDynamic(this, &AABCharacter::OnAttackMontageEnded);
 }
 
@@ -109,6 +110,7 @@ void AABCharacter::Attack()
 
 void AABCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted)
 {
+	ABCHECK(IsAttacking);
 	IsAttacking = false;
 }
 
