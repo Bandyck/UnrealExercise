@@ -2,6 +2,7 @@
 
 
 #include "ABCharacter.h"
+#include "ABAnimInstance.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -32,6 +33,8 @@ AABCharacter::AABCharacter()
 	static ConstructorHelpers::FClassFinder<UAnimInstance> WARRIOR_ANIM(TEXT("/Game/Book/Animation/PaladinAnimBlueprint.PaladinAnimBlueprint_C"));
 	if (WARRIOR_ANIM.Succeeded())
 		GetMesh()->SetAnimInstanceClass(WARRIOR_ANIM.Class);
+
+	IsAttacking = false;
 }
 
 // Called when the game starts or when spawned
@@ -54,12 +57,20 @@ void AABCharacter::Tick(float DeltaTime)
 
 }
 
+void AABCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	ABAnim = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
+	ABAnim->OnMontageEnded.AddDynamic(this, &AABCharacter::OnAttackMontageEnded);
+}
+
 // Called to bind functionality to input
 void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("AttackE"), EInputEvent::IE_Pressed, this, &AABCharacter::Attack);
 
 	PlayerInputComponent->BindAxis(TEXT("UpDown"), this, &AABCharacter::UpDown);
 	PlayerInputComponent->BindAxis(TEXT("LeftRight"), this, &AABCharacter::LeftRight);
@@ -85,5 +96,19 @@ void AABCharacter::LookUp(float NewAxisValue)
 void AABCharacter::Turn(float NewAxisValue)
 {
 	AddControllerYawInput(NewAxisValue);
+}
+
+void AABCharacter::Attack()
+{
+	if (IsAttacking) return;
+
+	ABAnim->PlayAttackMontage();
+
+	IsAttacking = true;
+}
+
+void AABCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted)
+{
+	IsAttacking = false;
 }
 

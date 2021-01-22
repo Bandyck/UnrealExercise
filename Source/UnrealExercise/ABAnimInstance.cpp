@@ -7,6 +7,9 @@ UABAnimInstance::UABAnimInstance()
 {
 	CurrentPawnSpeed = 0.0f;
 	IsInAir = false;
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> ATTACK_MONTAGE(TEXT("/Game/Book/Animation/paladin_j_nordstrom_Skeleton_Montage.paladin_j_nordstrom_Skeleton_Montage"));
+	if (ATTACK_MONTAGE.Succeeded())
+		AttackMontage = ATTACK_MONTAGE.Object;
 }
 
 void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
@@ -23,4 +26,9 @@ void UABAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 			IsInAir = Character->GetMovementComponent()->IsFalling();
 		}
 	}
+}
+
+void UABAnimInstance::PlayAttackMontage()
+{
+	Montage_Play(AttackMontage, 1.0f);
 }
