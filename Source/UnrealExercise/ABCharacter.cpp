@@ -42,6 +42,17 @@ AABCharacter::AABCharacter()
 	GetCapsuleComponent()->SetCollisionProfileName(TEXT("ABCharacter"));
 	AttackRange = 200.0f;
 	AttackRadius = 50.0f;
+
+	FName WeaponSocket(TEXT("hand_rSocket"));
+	if (GetMesh()->DoesSocketExist(WeaponSocket))
+	{
+		Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WEAPON"));
+		static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_WEAPON(TEXT("/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_DragonSword/SK_Blade_DragonSword.SK_Blade_DragonSword"));
+		if (SK_WEAPON.Succeeded())
+			Weapon->SetSkeletalMesh(SK_WEAPON.Object);
+
+		Weapon->SetupAttachment(GetMesh(), WeaponSocket);
+	}
 }
 
 // Called when the game starts or when spawned
