@@ -3,6 +3,7 @@
 
 #include "ABCharacter.h"
 #include "ABAnimInstance.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -39,6 +40,8 @@ AABCharacter::AABCharacter()
 	AttackEndComboState();
 
 	GetCapsuleComponent()->SetCollisionProfileName(TEXT("ABCharacter"));
+	AttackRange = 200.0f;
+	AttackRadius = 50.0f;
 }
 
 // Called when the game starts or when spawned
@@ -169,11 +172,28 @@ void AABCharacter::AttackCheck()
 	bool bResult = GetWorld()->SweepSingleByChannel(
 		HitResult,
 		GetActorLocation(),
-		GetActorLocation() + GetActorForwardVector() * 200.0f,
+		GetActorLocation() + GetActorForwardVector() * AttackRange,
 		FQuat::Identity,
 		ECollisionChannel::ECC_EngineTraceChannel2,
-		FCollisionShape::MakeSphere(50.0f),
+		FCollisionShape::MakeSphere(AttackRadius),
 		Params);
+#if ENABLE_DRAW_DEBUG
+	FVector TraceVec = GetActorForwardVector() * AttackRange;
+	FVector Center = GetActorLocation() + TraceVec * 0.5f;
+	float HalfHeight = AttackRange * 0.5f + AttackRadius;
+	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
+	FColor DrawColor = bResult ? FColor::Red : FColor::Green;
+	float DebugLifeTime = 5.0f;
+
+	DrawDebugCapsule(GetWorld(),
+		Center,
+		HalfHeight,
+		AttackRadius,
+		CapsuleRot,
+		DrawColor,
+		false,
+		DebugLifeTime);
+#endif // ENABLE_DRAW_DEBUG
 
 	if (bResult)
 	{

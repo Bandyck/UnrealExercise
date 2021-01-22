@@ -59,4 +59,9 @@ private:
 
 	UPROPERTY()
 		class UABAnimInstance* ABAnim;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRange;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRadius;
 };
