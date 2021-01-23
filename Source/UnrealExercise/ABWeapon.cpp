@@ -25,11 +25,3 @@ void AABWeapon::BeginPlay()
 	Super::BeginPlay();
 	
 }
-
-// Called every frame
-void AABWeapon::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-

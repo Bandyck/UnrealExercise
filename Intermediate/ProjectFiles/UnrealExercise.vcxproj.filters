@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealExercise.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8DC4C57C-F795-474F-8158-7B86A5E9C7B6}</UniqueIdentifier>
+      <UniqueIdentifier>{66B329B8-FCDA-4A94-B5D3-B7C9D151A425}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealExercise.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{97D03BC9-992E-40D7-BC81-C3843648729E}</UniqueIdentifier>
+      <UniqueIdentifier>{1465C345-7F67-4330-ACD6-96F09BE3CC9E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealExercise">
-      <UniqueIdentifier>{CFBFAEE5-673F-4BAC-90AA-9E2782EFD36A}</UniqueIdentifier>
+      <UniqueIdentifier>{39D62F7D-EB08-48AC-9032-7262F02F91B7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealExercise\ABAnimInstance.cpp">
       <Filter>Source\UnrealExercise</Filter>
@@ -49,6 +49,12 @@
     <ClInclude Include="..\..\Source\UnrealExercise\ABGameMode.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABItemBox.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABItemBox.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\UnrealExercise\ABPawn.cpp">
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
@@ -59,6 +65,12 @@
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealExercise\ABPlayerController.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABWeapon.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABWeapon.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
     <None Include="..\..\Source\UnrealExercise\UnrealExercise.Build.cs">
@@ -76,15 +88,5 @@
     <ClInclude Include="..\..\Source\UnrealExercise\UnrealExerciseGameModeBase.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABWeapon.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABWeapon.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
