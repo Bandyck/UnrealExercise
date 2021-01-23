@@ -31,7 +31,8 @@ public:
 	void SetWeapon(class AABWeapon* NewWeapon);
 	UPROPERTY(VisibleAnywhere, Category = Weapon)
 		class AABWeapon* CurrentWeapon;
-
+	UPROPERTY(VisibleAnywhere, Category = Stat)
+		class UABCharacterStatComponent* CharacterStat;
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		USpringArmComponent* SpringArm;
 	UPROPERTY(VisibleAnywhere, Category = Camera)

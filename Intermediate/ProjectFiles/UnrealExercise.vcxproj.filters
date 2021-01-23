@@ -93,9 +93,15 @@
     <ClInclude Include="..\..\Source\UnrealExercise\ABGameInstance.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABCharacterStatComponent.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UnrealExercise\ABGameInstance.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABCharacterStatComponent.cpp">
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
   </ItemGroup>
