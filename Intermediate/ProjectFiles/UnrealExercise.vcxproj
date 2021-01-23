@@ -396,8 +396,10 @@
     <ClCompile Include="..\..\Source\UnrealExercise\ABWeapon.cpp" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABWeapon.h" />
     <None Include="..\..\Source\UnrealExercise\UnrealExercise.Build.cs" />
+    <ClCompile Include="..\..\Source\UnrealExercise\BTService_Detect.cpp" />
     <ClCompile Include="..\..\Source\UnrealExercise\BTTask_FindPatrolPos.cpp" />
     <ClCompile Include="..\..\Source\UnrealExercise\UnrealExercise.cpp" />
+    <ClInclude Include="..\..\Source\UnrealExercise\BTService_Detect.h" />
     <ClInclude Include="..\..\Source\UnrealExercise\BTTask_FindPatrolPos.h" />
     <ClInclude Include="..\..\Source\UnrealExercise\UnrealExercise.h" />
     <ClCompile Include="..\..\Source\UnrealExercise\UnrealExerciseGameModeBase.cpp" />

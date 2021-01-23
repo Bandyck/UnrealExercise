@@ -117,9 +117,15 @@
     <ClInclude Include="..\..\Source\UnrealExercise\BTTask_FindPatrolPos.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\BTService_Detect.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UnrealExercise\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\BTService_Detect.cpp">
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
   </ItemGroup>
