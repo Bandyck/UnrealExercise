@@ -99,6 +99,9 @@
     <ClInclude Include="..\..\Source\UnrealExercise\ABCharacterWidget.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\ABAIController.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UnrealExercise\ABGameInstance.cpp">
@@ -108,6 +111,9 @@
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UnrealExercise\ABCharacterWidget.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\ABAIController.cpp">
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
   </ItemGroup>

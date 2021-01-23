@@ -373,7 +373,9 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\UnrealExercise\ABAIController.cpp" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABAnimInstance.cpp" />
+    <ClInclude Include="..\..\Source\UnrealExercise\ABAIController.h" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABAnimInstance.h" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABCharacter.cpp" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABCharacter.h" />
