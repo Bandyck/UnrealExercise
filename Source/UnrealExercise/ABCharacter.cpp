@@ -7,6 +7,7 @@
 #include "ABCharacterStatComponent.h"
 #include "DrawDebugHelpers.h"
 #include "Components/WidgetComponent.h"
+#include "ABCharacterWidget.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -64,12 +65,11 @@ void AABCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	//FName WeaponSocket(TEXT("hand_rSocket"));
-	//auto CurWeapon = GetWorld()->SpawnActor<AABWeapon>(FVector::ZeroVector, FRotator::ZeroRotator);
-	//if (nullptr != CurWeapon)
-	//{
-	//	CurWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, WeaponSocket);
-	//}
+	auto CharacterWidget = Cast<UABCharacterWidget>(HPBarWidget->GetUserWidgetObject());
+	if (nullptr != CharacterWidget)
+	{
+		CharacterWidget->BindCharacterStat(CharacterStat);
+	}
 }
 
 // Called every frame
@@ -90,6 +90,7 @@ void AABCharacter::PostInitializeComponents()
 	Super::PostInitializeComponents();
 	ABAnim = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
 	ABCHECK(nullptr != ABAnim);
+
 	ABAnim->OnMontageEnded.AddDynamic(this, &AABCharacter::OnAttackMontageEnded);
 	ABAnim->OnNextAttackCheck.AddLambda([this]() -> void {
 

@@ -378,9 +378,11 @@
     <ClCompile Include="..\..\Source\UnrealExercise\ABCharacter.cpp" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABCharacter.h" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABCharacterStatComponent.cpp" />
+    <ClCompile Include="..\..\Source\UnrealExercise\ABCharacterWidget.cpp" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABGameInstance.cpp" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABGameMode.cpp" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABCharacterStatComponent.h" />
+    <ClInclude Include="..\..\Source\UnrealExercise\ABCharacterWidget.h" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABGameInstance.h" />
     <ClInclude Include="..\..\Source\UnrealExercise\ABGameMode.h" />
     <ClCompile Include="..\..\Source\UnrealExercise\ABItemBox.cpp" />
