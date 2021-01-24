@@ -120,12 +120,30 @@
     <ClInclude Include="..\..\Source\UnrealExercise\BTService_Detect.h">
       <Filter>Source\UnrealExercise</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\BTDecorator_IsInAttackRange.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\BTTask_Attack.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\BTTask_TurnToTarget.h">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UnrealExercise\BTTask_FindPatrolPos.cpp">
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UnrealExercise\BTService_Detect.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\BTDecorator_IsInAttackRange.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\BTTask_Attack.cpp">
+      <Filter>Source\UnrealExercise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\BTTask_TurnToTarget.cpp">
       <Filter>Source\UnrealExercise</Filter>
     </ClCompile>
   </ItemGroup>
