@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealExercise_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x8AE5AC40,
+				0xDCD80A42,
 				0x8317FA9F,
 				METADATA_PARAMS(nullptr, 0)
 			};
