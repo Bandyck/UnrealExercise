@@ -28,6 +28,7 @@
 /wd4838
 /we4668
 /I .
+/I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -426,8 +427,12 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Inc\UnrealExercise"
+/I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattleSetting"
 /I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source"
+/I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\ArenaBattleSetting\Public"
+/I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\ArenaBattleSetting"
+/I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Inc\UnrealExercise"
+/I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\Public"
 /I "C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
@@ -438,7 +443,7 @@
 /FI"C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UnrealExerciseEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UnrealExerciseEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UnrealExerciseEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\UnrealExerciseGameModeBase.cpp"
+"C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\Private\UnrealExerciseGameModeBase.cpp"
 /FI"C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Development\UnrealExercise\Definitions.UnrealExercise.h"
 /Fo"C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Development\UnrealExercise\UnrealExerciseGameModeBase.cpp.obj"
 /TP

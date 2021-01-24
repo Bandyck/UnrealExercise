@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "UnrealExercise/UnrealExerciseGameModeBase.h"
+#include "UnrealExercise/Public/UnrealExerciseGameModeBase.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealExerciseGameModeBase() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUnrealExerciseGameModeBase_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "UnrealExerciseGameModeBase.h" },
-		{ "ModuleRelativePath", "UnrealExerciseGameModeBase.h" },
+		{ "ModuleRelativePath", "Public/UnrealExerciseGameModeBase.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealExerciseGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealExerciseGameModeBase, 3996190697);
+	IMPLEMENT_CLASS(AUnrealExerciseGameModeBase, 3863682946);
 	template<> UNREALEXERCISE_API UClass* StaticClass<AUnrealExerciseGameModeBase>()
 	{
 		return AUnrealExerciseGameModeBase::StaticClass();

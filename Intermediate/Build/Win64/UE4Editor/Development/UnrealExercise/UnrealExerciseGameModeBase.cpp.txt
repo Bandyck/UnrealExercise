@@ -1,5 +1,5 @@
 C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Development\UnrealExercise\Definitions.UnrealExercise.h
-C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\UnrealExerciseGameModeBase.h
+C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\Public\UnrealExerciseGameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h

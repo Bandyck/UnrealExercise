@@ -9,6 +9,6 @@ public class UnrealExerciseEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "UnrealExercise" } );
+		ExtraModuleNames.AddRange( new string[] { "UnrealExercise", "ArenaBattleSetting" } );
 	}
 }

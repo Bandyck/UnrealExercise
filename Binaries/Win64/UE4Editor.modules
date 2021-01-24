@@ -2,6 +2,7 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
-		"UnrealExercise": "UE4Editor-UnrealExercise-0058.dll"
+		"ArenaBattleSetting": "UE4Editor-ArenaBattleSetting.dll",
+		"UnrealExercise": "UE4Editor-UnrealExercise.dll"
 	}
 }

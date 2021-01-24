@@ -1,5 +1,5 @@
 C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Intermediate\Build\Win64\UE4Editor\Development\UnrealExercise\Definitions.UnrealExercise.h
-C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\UnrealExercise.h
+C:\Users\bandy\Documents\Unreal Projects\UnrealExercise\Source\UnrealExercise\Public\UnrealExercise.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h

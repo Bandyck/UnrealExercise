@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealExercise.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7CD3F390-3B46-4C04-9DED-8A708F27FD27}</UniqueIdentifier>
+      <UniqueIdentifier>{1AD69D6B-BF6D-46FE-A420-67FF70F6EB33}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealExercise.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{666A2BAE-DB6F-43B2-A312-55DFA9A88B9F}</UniqueIdentifier>
+      <UniqueIdentifier>{3DCD6DA2-29BE-421B-B3A0-3FB4B7B23952}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,123 +28,149 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
-    <Filter Include="Source\UnrealExercise">
-      <UniqueIdentifier>{6104E590-6E35-48DF-A935-E580C4B7CBE6}</UniqueIdentifier>
+    <Filter Include="Source\ArenaBattleSetting">
+      <UniqueIdentifier>{E2A5B72F-A840-4B34-9BB4-5E41AD66BA48}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABAIController.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <None Include="..\..\Source\ArenaBattleSetting\ArenaBattleSetting.Build.cs">
+      <Filter>Source\ArenaBattleSetting</Filter>
+    </None>
+    <Filter Include="Source\ArenaBattleSetting\Private">
+      <UniqueIdentifier>{61ABFDF5-A3AA-47A2-A6AF-060E922BFCEE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ABCharacterSetting.cpp">
+      <Filter>Source\ArenaBattleSetting\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABAIController.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABAnimInstance.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ArenaBattleSetting.cpp">
+      <Filter>Source\ArenaBattleSetting\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABAnimInstance.h">
-      <Filter>Source\UnrealExercise</Filter>
+    <Filter Include="Source\ArenaBattleSetting\Public">
+      <UniqueIdentifier>{20423974-6967-49F9-9723-18732C734D76}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ABCharacterSetting.h">
+      <Filter>Source\ArenaBattleSetting\Public</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABCharacter.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABCharacter.h">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ArenaBattleSetting.h">
+      <Filter>Source\ArenaBattleSetting\Public</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABCharacterStatComponent.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABCharacterStatComponent.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABCharacterWidget.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABCharacterWidget.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABGameInstance.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABGameInstance.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABGameMode.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABGameMode.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABItemBox.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABItemBox.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABPawn.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABPawn.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABPlayerController.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABPlayerController.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\ABWeapon.cpp">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\ABWeapon.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
+    <Filter Include="Source\UnrealExercise">
+      <UniqueIdentifier>{6551C63C-B21C-4393-97F1-10DC4F24B999}</UniqueIdentifier>
+    </Filter>
     <None Include="..\..\Source\UnrealExercise\UnrealExercise.Build.cs">
       <Filter>Source\UnrealExercise</Filter>
     </None>
-    <ClCompile Include="..\..\Source\UnrealExercise\UnrealExercise.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <Filter Include="Source\UnrealExercise\Private">
+      <UniqueIdentifier>{B90E48CE-D023-4FF6-9B2C-2FD8CCDAF978}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABAIController.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\UnrealExercise.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealExercise\UnrealExerciseGameModeBase.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABAnimInstance.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealExercise\UnrealExerciseGameModeBase.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\UnrealExercise\BTTask_FindPatrolPos.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UnrealExercise\BTService_Detect.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UnrealExercise\BTDecorator_IsInAttackRange.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UnrealExercise\BTTask_Attack.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UnrealExercise\BTTask_TurnToTarget.h">
-      <Filter>Source\UnrealExercise</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\UnrealExercise\BTTask_FindPatrolPos.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABCharacter.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\UnrealExercise\BTService_Detect.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABCharacterStatComponent.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\UnrealExercise\BTDecorator_IsInAttackRange.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABCharacterWidget.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\UnrealExercise\BTTask_Attack.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABGameInstance.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\UnrealExercise\BTTask_TurnToTarget.cpp">
-      <Filter>Source\UnrealExercise</Filter>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABGameMode.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABItemBox.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABPawn.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABPlayerController.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABWeapon.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\BTDecorator_IsInAttackRange.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\BTService_Detect.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\BTTask_Attack.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\BTTask_TurnToTarget.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\UnrealExercise.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\UnrealExerciseGameModeBase.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealExercise\Public">
+      <UniqueIdentifier>{849B08E4-9ED4-4A76-9C10-B6178A37A516}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABAIController.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABAnimInstance.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABCharacter.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABCharacterStatComponent.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABCharacterWidget.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABGameInstance.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABGameMode.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABItemBox.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABPawn.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABPlayerController.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABWeapon.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\BTDecorator_IsInAttackRange.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\BTService_Detect.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\BTTask_Attack.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\BTTask_FindPatrolPos.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\BTTask_TurnToTarget.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\UnrealExercise.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\UnrealExerciseGameModeBase.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
