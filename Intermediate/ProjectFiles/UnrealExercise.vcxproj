@@ -389,6 +389,7 @@
     <ClCompile Include="..\..\Source\UnrealExercise\Private\ABItemBox.cpp"/>
     <ClCompile Include="..\..\Source\UnrealExercise\Private\ABPawn.cpp"/>
     <ClCompile Include="..\..\Source\UnrealExercise\Private\ABPlayerController.cpp"/>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABSection.cpp"/>
     <ClCompile Include="..\..\Source\UnrealExercise\Private\ABWeapon.cpp"/>
     <ClCompile Include="..\..\Source\UnrealExercise\Private\BTDecorator_IsInAttackRange.cpp"/>
     <ClCompile Include="..\..\Source\UnrealExercise\Private\BTService_Detect.cpp"/>
@@ -407,6 +408,7 @@
     <ClInclude Include="..\..\Source\UnrealExercise\Public\ABItemBox.h"/>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\ABPawn.h"/>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\ABPlayerController.h"/>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABSection.h"/>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\ABWeapon.h"/>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\BTDecorator_IsInAttackRange.h"/>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\BTService_Detect.h"/>

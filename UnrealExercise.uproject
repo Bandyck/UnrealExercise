@@ -9,7 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PreDefault",
 			"AdditionalDependencies": [
-				"CoreUObject"
+				"CoreUObject",
+				"Engine"
 			]
 		},
 		{

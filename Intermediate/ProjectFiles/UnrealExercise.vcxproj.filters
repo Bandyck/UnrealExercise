@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealExercise.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1AD69D6B-BF6D-46FE-A420-67FF70F6EB33}</UniqueIdentifier>
+      <UniqueIdentifier>{895CB6EC-93A0-4C92-BC6B-318FAEEFA338}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealExercise.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{3DCD6DA2-29BE-421B-B3A0-3FB4B7B23952}</UniqueIdentifier>
+      <UniqueIdentifier>{B3CFC826-2846-41B6-9031-7C8B1EE2EF5B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,13 +29,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattleSetting">
-      <UniqueIdentifier>{E2A5B72F-A840-4B34-9BB4-5E41AD66BA48}</UniqueIdentifier>
+      <UniqueIdentifier>{3565FB3C-C22B-458D-A8E4-CBEC1D1EEE77}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattleSetting\ArenaBattleSetting.Build.cs">
       <Filter>Source\ArenaBattleSetting</Filter>
     </None>
     <Filter Include="Source\ArenaBattleSetting\Private">
-      <UniqueIdentifier>{61ABFDF5-A3AA-47A2-A6AF-060E922BFCEE}</UniqueIdentifier>
+      <UniqueIdentifier>{5A267632-3096-46EE-B422-6143B8996D68}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ArenaBattleSetting\Private\ABCharacterSetting.cpp">
       <Filter>Source\ArenaBattleSetting\Private</Filter>
@@ -44,7 +44,7 @@
       <Filter>Source\ArenaBattleSetting\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ArenaBattleSetting\Public">
-      <UniqueIdentifier>{20423974-6967-49F9-9723-18732C734D76}</UniqueIdentifier>
+      <UniqueIdentifier>{3B4C54E1-937F-43F5-8579-DDBFD6A5486E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ArenaBattleSetting\Public\ABCharacterSetting.h">
       <Filter>Source\ArenaBattleSetting\Public</Filter>
@@ -53,13 +53,13 @@
       <Filter>Source\ArenaBattleSetting\Public</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealExercise">
-      <UniqueIdentifier>{6551C63C-B21C-4393-97F1-10DC4F24B999}</UniqueIdentifier>
+      <UniqueIdentifier>{E4653128-4E13-4D15-9CBC-B929701D71DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealExercise\UnrealExercise.Build.cs">
       <Filter>Source\UnrealExercise</Filter>
     </None>
     <Filter Include="Source\UnrealExercise\Private">
-      <UniqueIdentifier>{B90E48CE-D023-4FF6-9B2C-2FD8CCDAF978}</UniqueIdentifier>
+      <UniqueIdentifier>{25DCBED6-EBF9-426E-9F7C-F0F015C807C3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealExercise\Private\ABAIController.cpp">
       <Filter>Source\UnrealExercise\Private</Filter>
@@ -91,6 +91,9 @@
     <ClCompile Include="..\..\Source\UnrealExercise\Private\ABPlayerController.cpp">
       <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealExercise\Private\ABSection.cpp">
+      <Filter>Source\UnrealExercise\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealExercise\Private\ABWeapon.cpp">
       <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
@@ -116,7 +119,7 @@
       <Filter>Source\UnrealExercise\Private</Filter>
     </ClCompile>
     <Filter Include="Source\UnrealExercise\Public">
-      <UniqueIdentifier>{849B08E4-9ED4-4A76-9C10-B6178A37A516}</UniqueIdentifier>
+      <UniqueIdentifier>{C1AE48C7-4587-4030-9850-1CC389E24FBA}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\ABAIController.h">
       <Filter>Source\UnrealExercise\Public</Filter>
@@ -146,6 +149,9 @@
       <Filter>Source\UnrealExercise\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\ABPlayerController.h">
+      <Filter>Source\UnrealExercise\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealExercise\Public\ABSection.h">
       <Filter>Source\UnrealExercise\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealExercise\Public\ABWeapon.h">
