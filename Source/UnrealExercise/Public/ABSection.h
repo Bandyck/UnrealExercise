@@ -18,7 +18,17 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+private:
+	enum class ESectionState : uint8
+	{
+		READY = 0,
+		BATTLE,
+		COMPLETE
+	};
+	void SetState(ESectionState NewState);
+	ESectionState CurrentState = ESectionState::READY;
 
+	void OperateGates(bool bOpen = true);
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -32,4 +42,7 @@ private:
 		UStaticMeshComponent* Mesh;
 	UPROPERTY(VisibleAnywhere, Category = Trigger, Meta = (AllowPrivateAccess = true))
 		UBoxComponent* Trigger;
+
+	UPROPERTY(EditAnywhere, Category = State, Meta = (AllowPrivateAccess = true))
+		bool bNoBattle;
 };
