@@ -140,6 +140,27 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &AABCharacter::Turn);
 }
 
+void AABCharacter::PossessedBy(AController* Newcontroller)
+{
+	Super::PossessedBy(Newcontroller);
+
+	if (!IsPlayerControlled())
+	{
+		bUseControllerRotationYaw = false;
+		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+		GetCharacterMovement()->RotationRate = FRotator(0.0f, 480.0f, 0.0f);
+		GetCharacterMovement()->MaxWalkSpeed = 300.0f;
+	}
+	else
+	{
+		GetCharacterMovement()->bUseControllerDesiredRotation = true;
+		GetCharacterMovement()->bOrientRotationToMovement = false;
+		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
+		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	}
+}
+
 bool AABCharacter::CanSetWeapon()
 {
 	return (nullptr == CurrentWeapon);
