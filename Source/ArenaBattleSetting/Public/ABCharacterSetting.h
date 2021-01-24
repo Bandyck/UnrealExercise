@@ -9,9 +9,14 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(config=UnrealExercise)
 class ARENABATTLESETTING_API UABCharacterSetting : public UObject
 {
 	GENERATED_BODY()
-	
+
+public:
+	UABCharacterSetting();
+
+	UPROPERTY(config)
+		TArray<FSoftObjectPath> CharacterAssets;
 };
